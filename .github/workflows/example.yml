@@ -34,6 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - uses: actions/checkout@v1
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v1
+      - name: Setup Debug Session
+        uses: csexton/debugger-action@master
